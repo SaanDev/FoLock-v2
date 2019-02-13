@@ -15,7 +15,7 @@ Public Class frmlogin
         Dim username As String = ""
         Dim pass As String
         If TextBox1.Text = "" Or TextBox2.Text = "" Then
-            MsgBox("Plz Fill All the info")
+            MsgBox("Please fil the all informations")
         Else
             uname = TextBox1.Text
             pword = TextBox2.Text
@@ -27,7 +27,7 @@ Public Class frmlogin
             Try
                 pass = cmd.ExecuteScalar().ToString
             Catch ex As Exception
-                MsgBox("Username does not exit")
+                MsgBox("Username or Password incorrect! Try Again!")
             End Try
             If (pword = pass) Then
                 MsgBox("Login success")
@@ -37,7 +37,7 @@ Public Class frmlogin
                 End If
 
             Else
-                MsgBox("login Failed")
+                MsgBox("Login Failed.Try again.")
                 TextBox1.Clear()
                 TextBox2.Clear()
             End If

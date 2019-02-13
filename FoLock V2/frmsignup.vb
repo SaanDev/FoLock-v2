@@ -18,10 +18,10 @@ Public Class frmsignup
                 Dim cmd As New OleDbCommand(insert, conn)
                 conn.Open()
                 cmd.ExecuteNonQuery()
-                MsgBox("create success")
+                MsgBox("FoLock Account created successfully!")
                 Me.Close()
             Catch ex As Exception
-                MsgBox("error")
+                MsgBox("Somthing went wrong!")
             End Try
         End If
     End Sub
