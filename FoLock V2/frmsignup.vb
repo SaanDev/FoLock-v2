@@ -10,7 +10,7 @@ Public Class frmsignup
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox2.Text = "" Or TextBox2.Text = "" Or TextBox3.Text = "" Then
-            MsgBox("plz fill the info")
+            MsgBox("Please fill the all information.")
         Else
             Try
                 Dim conn As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\SaaN\Sahan\Saan All\Sahan\Sahan\My Projects\FoLock V2\FoLock V2.accdb;")
