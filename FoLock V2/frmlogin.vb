@@ -1,4 +1,6 @@
-﻿Imports System.Data.OleDb
+﻿'Copyright 2019 SaanSoft Inc. All Rights Reserved.
+'Author :- Sahan S Liyanage
+Imports System.Data.OleDb
 Imports System.Data
 
 Public Class frmlogin
@@ -55,5 +57,9 @@ Public Class frmlogin
     Private Sub Label3_MouseLeave(sender As Object, e As EventArgs) Handles Label3.MouseLeave
         Label3.BackColor = Color.Gray
         Label3.ForeColor = Color.Black
+    End Sub
+
+    Private Sub frmlogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
