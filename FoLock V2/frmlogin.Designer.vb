@@ -37,7 +37,7 @@ Partial Class frmlogin
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Open Sans Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(248, 318)
+        Me.Button1.Location = New System.Drawing.Point(286, 318)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 32)
         Me.Button1.TabIndex = 0
@@ -48,7 +48,7 @@ Partial Class frmlogin
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Open Sans Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(372, 318)
+        Me.Button2.Location = New System.Drawing.Point(448, 318)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(121, 32)
         Me.Button2.TabIndex = 0
