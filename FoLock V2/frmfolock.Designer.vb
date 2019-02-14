@@ -36,6 +36,7 @@ Partial Class Frmfolock
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Open Sans Extrabold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Location = New System.Drawing.Point(673, 5)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(24, 28)
@@ -46,6 +47,7 @@ Partial Class Frmfolock
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Open Sans Extrabold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label2.Location = New System.Drawing.Point(647, 4)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(19, 28)

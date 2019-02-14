@@ -157,6 +157,10 @@
     <Content Include="FoLock V2.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\шестеренка-иконка-png-71.png" />
+    <None Include="Resources\cog-large%402x2.png" />
+    <None Include="Resources\18125-2001.png" />
+    <None Include="Resources\18125-200.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

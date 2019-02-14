@@ -10,13 +10,13 @@ Public Class Frmfolock
     End Sub
 
     Private Sub Label2_MouseHover(sender As Object, e As EventArgs) Handles Label2.MouseHover
-        Label2.BackColor = Color.Blue
-        Label2.ForeColor = Color.White
+        Label2.BackColor = Color.White
+        Label2.ForeColor = Color.Black
     End Sub
 
     Private Sub Label2_MouseLeave(sender As Object, e As EventArgs) Handles Label2.MouseLeave
-        Label2.BackColor = Color.White
-        Label2.ForeColor = Color.Black
+        Label2.BackColor = Color.FromArgb(40, 40, 40)
+        Label2.ForeColor = Color.White
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
