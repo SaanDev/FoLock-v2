@@ -126,9 +126,9 @@ Partial Class frmsignup
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(223, 44)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(298, 43)
+        Me.Label4.Size = New System.Drawing.Size(313, 43)
         Me.Label4.TabIndex = 1
-        Me.Label4.Text = "Sign Up fo FoLock"
+        Me.Label4.Text = "Sign Up for FoLock"
         '
         'Label6
         '
