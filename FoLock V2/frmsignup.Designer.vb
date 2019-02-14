@@ -106,6 +106,7 @@ Partial Class frmsignup
         Me.TextBox2.Font = New System.Drawing.Font("Open Sans Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(265, 193)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
         Me.TextBox2.Size = New System.Drawing.Size(238, 33)
         Me.TextBox2.TabIndex = 2
         '
@@ -114,6 +115,7 @@ Partial Class frmsignup
         Me.TextBox3.Font = New System.Drawing.Font("Open Sans Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.Location = New System.Drawing.Point(263, 256)
         Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
         Me.TextBox3.Size = New System.Drawing.Size(238, 33)
         Me.TextBox3.TabIndex = 2
         '
