@@ -1,4 +1,5 @@
-﻿'SaanSoft Inc.
+﻿'Copyright 2019 SaanSoft Inc. All Rights Reserved.
+'Author :- Sahan S Liyanage
 
 Imports System.Security.AccessControl
 Imports System.IO

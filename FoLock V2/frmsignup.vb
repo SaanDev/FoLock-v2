@@ -1,4 +1,6 @@
-﻿Imports System.Data.OleDb
+﻿'Copyright 2019 SaanSoft Inc. All Rights Reserved.
+'Author :- Sahan S Liyanage
+Imports System.Data.OleDb
 Imports System.Data
 
 Public Class frmsignup

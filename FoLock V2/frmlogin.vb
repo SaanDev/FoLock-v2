@@ -77,7 +77,7 @@ Public Class frmlogin
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
+        MsgBox("Settings will be available in next update.")
     End Sub
 
 

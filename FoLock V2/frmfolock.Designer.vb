@@ -30,6 +30,7 @@ Partial Class Frmfolock
         Me.Button3 = New System.Windows.Forms.Button()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -110,12 +111,24 @@ Partial Class Frmfolock
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Select a file or folder to lock or unlock:"
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Tai Le", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label6.Location = New System.Drawing.Point(3, 322)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(100, 32)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "SaanSoft Inc." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FoLock v2 Beta"
+        '
         'Frmfolock
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(704, 358)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button3)
@@ -140,4 +153,5 @@ Partial Class Frmfolock
     Friend WithEvents Button3 As Button
     Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
     Friend WithEvents Label3 As Label
+    Friend WithEvents Label6 As Label
 End Class

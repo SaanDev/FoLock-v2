@@ -34,6 +34,7 @@ Partial Class frmlogin
         Me.Label5 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -42,7 +43,7 @@ Partial Class frmlogin
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Open Sans Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button1.Location = New System.Drawing.Point(268, 309)
+        Me.Button1.Location = New System.Drawing.Point(268, 288)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 32)
         Me.Button1.TabIndex = 0
@@ -54,7 +55,7 @@ Partial Class frmlogin
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Open Sans Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button2.Location = New System.Drawing.Point(430, 309)
+        Me.Button2.Location = New System.Drawing.Point(430, 288)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(121, 32)
         Me.Button2.TabIndex = 0
@@ -66,7 +67,7 @@ Partial Class frmlogin
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Location = New System.Drawing.Point(160, 176)
+        Me.Label1.Location = New System.Drawing.Point(160, 155)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(109, 23)
         Me.Label1.TabIndex = 1
@@ -75,7 +76,7 @@ Partial Class frmlogin
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Open Sans Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(286, 173)
+        Me.TextBox1.Location = New System.Drawing.Point(286, 152)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(296, 26)
@@ -84,7 +85,7 @@ Partial Class frmlogin
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Open Sans Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(286, 225)
+        Me.TextBox2.Location = New System.Drawing.Point(286, 204)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
@@ -96,7 +97,7 @@ Partial Class frmlogin
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(163, 227)
+        Me.Label2.Location = New System.Drawing.Point(163, 206)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(105, 23)
         Me.Label2.TabIndex = 1
@@ -143,6 +144,17 @@ Partial Class frmlogin
         Me.PictureBox1.TabStop = False
         Me.ToolTip1.SetToolTip(Me.PictureBox1, "Settings")
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Tai Le", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label6.Location = New System.Drawing.Point(1, 393)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(100, 32)
+        Me.Label6.TabIndex = 1
+        Me.Label6.Text = "SaanSoft Inc." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FoLock v2 Beta"
+        '
         'frmlogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -155,6 +167,7 @@ Partial Class frmlogin
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
@@ -181,4 +194,5 @@ Partial Class frmlogin
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents Label6 As Label
 End Class

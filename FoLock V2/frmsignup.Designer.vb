@@ -31,6 +31,7 @@ Partial Class frmsignup
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -127,12 +128,24 @@ Partial Class frmsignup
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "Sign Up fo FoLock"
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Tai Le", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label6.Location = New System.Drawing.Point(12, 379)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(100, 32)
+        Me.Label6.TabIndex = 3
+        Me.Label6.Text = "SaanSoft Inc." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FoLock v2 Beta"
+        '
         'frmsignup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(661, 420)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
@@ -161,4 +174,5 @@ Partial Class frmsignup
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label6 As Label
 End Class
