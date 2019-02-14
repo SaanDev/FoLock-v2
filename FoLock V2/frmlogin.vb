@@ -30,9 +30,8 @@ Public Class frmlogin
                 MsgBox("Username or Password incorrect! Try Again!")
             End Try
             If (pword = pass) Then
-                MsgBox("Login success")
-                frmsignup.Show()
-                If frmsignup.Visible Then
+                frmfolock.Show()
+                If frmfolock.Visible Then
                     Me.Hide()
                 End If
 
@@ -55,11 +54,25 @@ Public Class frmlogin
     End Sub
 
     Private Sub Label3_MouseLeave(sender As Object, e As EventArgs) Handles Label3.MouseLeave
-        Label3.BackColor = Color.Gray
-        Label3.ForeColor = Color.Black
+        Label3.BackColor = Color.FromArgb(40, 40, 40)
+        Label3.ForeColor = Color.White
     End Sub
 
     Private Sub frmlogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+        Me.WindowState = FormWindowState.Minimized
+    End Sub
+
+    Private Sub Label4_MouseHover(sender As Object, e As EventArgs) Handles Label4.MouseHover
+        Label4.BackColor = Color.AliceBlue
+        Label4.ForeColor = Color.Black
+    End Sub
+
+    Private Sub Label4_MouseLeave(sender As Object, e As EventArgs) Handles Label4.MouseLeave
+        Label4.BackColor = Color.FromArgb(40, 40, 40)
+        Label4.ForeColor = Color.White
     End Sub
 End Class
